@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ilocano Food Match AI</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">🍽️ Ilocano Food Match AI</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#match">Match</a>
+            <a href="#all-dishes" class="btn">Dishes</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Find Your Perfect Ilocano Dish</h1>
+        <p>Explore authentic flavors of Ilocos Norte tailored to your taste!</p>
+    </section>
+
+    <section id="match" class="container">
+        <h2>Your Preferences</h2>
+        <form id="preferenceForm">
+            <div class="form-row">
+                <label for="taste">Taste</label>
+                <select id="taste" required>
+                    <option value="">Select Taste</option>
+                    <option>salty</option>
+                    <option>sweet</option>
+                    <option>spicy</option>
+                    <option>sour</option>
+                    <option>savory</option>
+                    <option>bitter</option>
+                </select>
+            </div>
+
+            <div class="form-row">
+                <label for="ingredient">Ingredient</label>
+                <select id="ingredient" required>
+                    <option value="">Select Ingredient</option>
+                    <option>pork</option>
+                    <option>beef</option>
+                    <option>vegetables</option>
+                    <option>seafood</option>
+                    <option>native</option>
+                </select>
+            </div>
+
+            <div class="form-row">
+                <label for="method">Cooking Method</label>
+                <select id="method" required>
+                    <option value="">Select Method</option>
+                    <option>fried</option>
+                    <option>grilled</option>
+                    <option>boiled</option>
+                    <option>sautéed</option>
+                    <option>fermented</option>
+                </select>
+            </div>
+
+            <div class="form-row">
+                <label for="occasion">Occasion</label>
+                <select id="occasion" required>
+                    <option value="">Select Occasion</option>
+                    <option>breakfast</option>
+                    <option>lunch</option>
+                    <option>dinner</option>
+                    <option>merienda</option>
+                    <option>celebration</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn">Find My Dish</button>
+        </form>
+    </section>
+
+    <section id="result" class="container">
+        <h2>Matching Dish</h2>
+        <div id="result-cards" class="cards"></div>
+    </section>
+
+    <section id="all-dishes" class="container">
+        <h2>All Ilocano Dishes</h2>
+        <p>Explore our complete collection of authentic regional cuisine</p>
+        <div id="dish-list" class="cards"></div>
+    </section>
+</body>
+</html>

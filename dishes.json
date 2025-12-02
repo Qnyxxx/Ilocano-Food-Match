@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Bagnet",
+        "taste_profile": ["salty", "savory"],
+        "main_ingredient": "pork",
+        "cooking_method": "fried",
+        "occasion": ["lunch", "dinner", "celebration"],
+        "description": "A crispy pork belly specialty of Ilocos.",
+        "image_url": "https://postimg.cc/MvdJhTGm"
+    },
+    {
+        "name": "Dinakdakan",
+        "taste_profile": ["spicy", "savory"],
+        "main_ingredient": "pork",
+        "cooking_method": "grilled",
+        "occasion": ["dinner", "celebration"],
+        "description": "A grilled pork dish with creamy dressing.",
+        "image_url": "https://i.imgur.com/dinakdakan.jpg"
+    },
+    {
+        "name": "Pinakbet",
+        "taste_profile": ["savory", "bitter"],
+        "main_ingredient": "vegetables",
+        "cooking_method": "boiled",
+        "occasion": ["lunch", "dinner"],
+        "description": "A vegetable stew cooked with bagoong.",
+        "image_url": "https://i.imgur.com/pinakbet.jpg"
+    }
+]
